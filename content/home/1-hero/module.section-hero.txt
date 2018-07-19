@@ -2,7 +2,7 @@ Title: hero
 
 ----
 
-Hero-header: Web auf Massen
+Hero-header: Web auf Mass
 
 ----
 
