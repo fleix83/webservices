@@ -1,0 +1,17 @@
+Titel: Webshop
+
+----
+
+Text: Voll funktionaler Webshop inkl. Payment Modul und Templateanpassung
+
+----
+
+Background: bordeaux
+
+----
+
+Switchit: true
+
+----
+
+Title: Webshop

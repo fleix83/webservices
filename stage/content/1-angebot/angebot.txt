@@ -1,0 +1,71 @@
+Title: Angebot
+
+----
+
+Text: **Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam (link: http://weissheimer.ws/wohn/ text: volupta). At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea tamikita anctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam (file: serafino_deutsch.pdf text: Brochure) nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.**
+
+----
+
+Intro: Angebot
+
+----
+
+Angebot-1: 
+
+----
+
+Angebot-2: 
+
+----
+
+Angebot-3: 
+
+----
+
+Angebote: 
+
+- 
+  title: Webshop
+  text: >
+    Opensource Webshop inkl. Payment
+    Optionen und Preismechanismen
+  preis: 999.-
+  cta: Mehr
+  cta_link: http://google.ch
+  color: red
+- 
+  title: Qualitäts Kontrolle
+  text: ysjyälfnösjndfkjsndäfjjvaädfv
+  preis: 499.-
+  cta: Mehr
+  cta_link: http://google.ch
+  color: black
+- 
+  title: Template
+  text: >
+    Massgeschneidertes Template für Ihr
+    Projekt
+  preis: 399.-
+  cta: Mehr
+  cta_link: ""
+
+----
+
+Background-angebot: yellow-kopie.jpg
+
+----
+
+Accordion: 
+
+- 
+  acc_header: Section 1
+  acc_panel: Ein bisschen Text...
+- 
+  acc_header: Section 2
+  acc_panel: Ein bisschen Text...
+- 
+  acc_header: Section 3
+  acc_panel: Ein bisschen Text...
+- 
+  acc_header: Section 4
+  acc_panel: Noch ein bisschen Text...

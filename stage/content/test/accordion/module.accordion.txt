@@ -1,0 +1,20 @@
+Title: Accordion
+
+----
+
+Accordiontype: checkbox
+
+----
+
+Accordions: 
+
+- 
+  header: Erstes Accordion
+  title: Inhalt
+  content: >
+    Ein paar Sätze im Accordion, eigentlich
+    nur ein Satz...
+- 
+  header: Zweites Accordion
+  title: Titel
+  content: Inhalt des zweiten Accordions

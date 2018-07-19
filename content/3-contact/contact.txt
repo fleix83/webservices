@@ -1,0 +1,20 @@
+Title: Kontakt
+
+----
+
+Text: 
+
+----
+
+Intro: 
+
+----
+
+Contactoptions: 
+
+- 
+  title: Mr. Bridge
+  icon: contact.svg
+  text: A serious man.
+  url: https://www.deepl.com/translator
+  linktext: Serious Sites

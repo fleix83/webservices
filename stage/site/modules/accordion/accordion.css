@@ -1,0 +1,106 @@
+.accordion {
+  display: block;
+  font-size: inherit;
+  margin-bottom: 10px;
+  position: relative;
+  width: 100%;
+  min-width: 300px;
+
+}
+
+.accordion input {
+  display: none;
+  position: absolute;
+  visibility: hidden;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+}
+
+.accordion__header {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  color: #000;
+  cursor: pointer;
+  transition: background 0.2s;
+  padding: 10px;
+  position: relative;
+  z-index: 2;
+}
+.accordion__header:hover {
+  background-color: #007aff;
+  color: white;
+}
+.accordion__header:hover:before, .accordion__header:hover:after {
+  background-color: white;
+}
+.accordion__header:before, .accordion__header:after {
+  background-color: #007aff;
+  content: '';
+  display: block;
+  position: absolute;
+  z-index: 3;
+}
+.accordion__header:before {
+  height: 2px;
+  margin-top: -1px;
+  top: 50%;
+  right: 20px;
+  width: 8px;
+}
+.accordion__header:after {
+  height: 8px;
+  margin-top: -4px;
+  top: 50%;
+  right: 23px;
+  width: 2px;
+}
+.accordion input:checked ~ .accordion__header {
+  background: #007aff;
+  border-color: #007aff;
+  color: white;
+}
+.accordion input:checked ~ .accordion__header:hover {
+  background-color: #ccc;
+  border-color: #ccc;
+  color: white;
+}
+.accordion input:checked ~ .accordion__header:before {
+  background-color: white;
+}
+.accordion input:checked ~ .accordion__header:after {
+  display: none;
+}
+.accordion:first-child .accordion__header {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.accordion:last-child .accordion__header {
+  border-bottom-width: 1px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.accordion:last-child input:checked ~ .accordion__header {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.accordion__content {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-width: 1px;
+  display: none;
+  padding: 20px;
+}
+.accordion input:checked ~ .accordion__content {
+  display: block;
+}
+.accordion:last-child .accordion__content {
+  border-bottom-width: 1px;
+  border-radius: 0px 0px 4px 4px;
+}
+.accordion__content h6 {
+  color: #007aff;
+  font-size: 18px;
+  margin-bottom: 5px;
+}

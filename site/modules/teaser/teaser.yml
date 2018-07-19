@@ -1,0 +1,35 @@
+title: Teaser module
+pages: false
+files: true
+icon: list
+
+options:
+  preview: false
+  status: true
+  template: false
+  url: true
+  delete: true
+
+
+
+fields:
+  teaser:
+      label: Teaser
+      type: structure
+      style: table
+      fields:
+        tsr_image:
+          label: Teaser Image
+          type: image
+        tsr_titel:
+          label: Teaser Titel
+          type: text
+        tsr_text:
+          label: Teaser Text
+          type: textarea
+        tsr_cta:
+          label: Teaser CallToAction
+          type: text
+        tsr_cta_link:
+          label: Teaser CallToAction Link
+          type: url

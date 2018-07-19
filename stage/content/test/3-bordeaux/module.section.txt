@@ -1,0 +1,17 @@
+Titel: Bordeaux
+
+----
+
+Text: Ein wunderbares Stück einer Webseite, einer Section ganz in Bordeaux!
+
+----
+
+Background: bordeaux
+
+----
+
+Title: Bordeaux
+
+----
+
+Switchit: false

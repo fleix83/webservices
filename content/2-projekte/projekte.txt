@@ -1,0 +1,60 @@
+Title: Projekte
+
+----
+
+Intro: Eine Auswahl meiner Umsetzungen
+
+----
+
+Text: LKGlhsaödasdasd
+
+----
+
+Teaser: 
+
+- 
+  tsr_image: background.jpg
+  tsr_titel: Klaus
+  tsr_text: >
+    LKJBpjnasdöcöa sdoaijs
+    düoijüSDJÄOAisjd ¨cijSD C
+  tsr_cta: GO!
+  tsr_cta_link: ""
+- 
+  tsr_image: blue-bg-02.jpg
+  tsr_titel: Bluemotion
+  tsr_text: >
+    Gehst du gegen den Wind? Lass es darauf
+    ankommen und springe!
+  tsr_cta: Spring!
+  tsr_cta_link: ""
+- 
+  tsr_image: blue-bg.jpg
+  tsr_titel: Bombo
+  tsr_text: LJHbpaibökjbüDJSBd
+  tsr_cta: Press!
+  tsr_cta_link: ""
+
+----
+
+Table: 
+
+- 
+  col_1: Name
+  col_2: Vorname
+  col_3: Strasse
+  col_4: Ort
+- 
+  col_1: Weissheimer
+  col_2: Felix
+  col_3: Maulbeerstrasse
+  col_4: Basel
+- 
+  col_1: Bader
+  col_2: Kurt
+  col_3: Eralderstrasse
+  col_4: Karslruhe
+
+----
+
+Sortable: webshop

@@ -1,0 +1,18 @@
+Teaser: 
+
+- 
+  tsr_image: 3127647076.jpg
+  tsr_titel: Beta
+  tsr_text: Für preisbewusste Konsumenten
+  tsr_cta: Mehr
+  tsr_cta_link: ""
+- 
+  tsr_image: 520420178.jpg
+  tsr_titel: Alpha
+  tsr_text: Das erste Produkt in dieser Reihe
+  tsr_cta: Mehr
+  tsr_cta_link: ""
+
+----
+
+Title: Product Teaser

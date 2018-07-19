@@ -1,0 +1,48 @@
+Title: Home
+
+----
+
+Intro: Web auf Mass
+
+----
+
+Text: 
+
+**Leichte Templates, schnelles Rendering
+**
+
+----
+
+Alert: 
+
+----
+
+Test: true
+
+----
+
+Box: d-block
+
+----
+
+Hero-header: Web auf Mass
+
+----
+
+Hero-sub: Leichte Templates, schnelles Rendering
+
+----
+
+Cta-angebot: Angebot
+
+----
+
+Cta-angebot-link: http://weissheimer.ws/ws/angebot
+
+----
+
+Cta-projekte: Projekte
+
+----
+
+Cta-projekte-link: http://weissheimer.ws/ws/projekte

@@ -1,0 +1,37 @@
+title: Modul Angebot
+pages: true
+options:
+  template: true
+  url: true
+
+fields:
+  title:
+    label: Titel
+    type: text
+
+  angebote:
+    label: Angebote
+    type: structure
+    style: table
+    fields:
+      title:
+        label: Angebot
+        type: text
+      text:
+        label: Text
+        type: textarea
+      preis:
+        label: Preis
+        type: text
+      cta:
+        label: CTA
+        type: text
+      cta_link:
+        label: Link
+        type: url
+      color:
+        label: Color
+        type: select
+        options:
+          black: Black
+          red: Red

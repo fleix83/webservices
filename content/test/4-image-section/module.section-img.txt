@@ -1,0 +1,25 @@
+Image: kiefern.jpg
+
+----
+
+Titel: 
+
+----
+
+Text: Die einzelnen Konturfächer verfügen über Vertiefungen, die zur einfachen Entnahme von Besteck und Zubehör dienen. Durch einen leichten Druck auf ein Ende des Salzdöschens klappt dieses bspw. in die Vertiefung und kann bequem entnommen werden
+
+----
+
+Title: Image Section
+
+----
+
+Justify: justify-content-start
+
+----
+
+Imagesize: col-lg-12
+
+----
+
+Justifyimage: justify-content-center

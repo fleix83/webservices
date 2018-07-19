@@ -1,0 +1,32 @@
+title: Section module
+pages: false
+files: true
+icon: list
+
+options:
+  preview: false
+  status: true
+  template: false
+  url: true
+  delete: true
+
+
+
+fields:
+  titel:
+      label: Titel
+      type: text
+  text:
+      label: Text
+      type: text
+  background:
+    label: Background
+  	type: select
+  	options:
+  			bordeaux: Bordeaux
+  			marine: Marine
+        green: Green
+  switchit:
+    label: Switch
+    type: switch
+    text: You can turn me on and off

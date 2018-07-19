@@ -1,0 +1,55 @@
+Title: WEISSHEIMER webservices
+
+----
+
+Author: Felix Weissheimer
+
+----
+
+Description: Web auf Mass
+
+----
+
+Copyright: © 2018 WEISSHEIMER webservices
+
+----
+
+Toggler: toggler_tripti_blue.svg
+
+----
+
+Footer-1: 
+
+----
+
+Footer-2: 
+
+###WEISSHEIMER webservices
+4058 | Basel
+
++41 78 892 30 13
+felix@weissheimer.ws
+
+----
+
+Footer-3: 
+
+Gerne biete ich Ihnen auch ein Vorab-Gespräch zur Realisierung Ihres Projektes an: 
+
+(link: tel:8998987 text: 0987687687)
+
+----
+
+Background: tex-mint.jpg
+
+----
+
+Keywords: 
+
+----
+
+Body-border-width: 2vh
+
+----
+
+Body-border-opacity: 1

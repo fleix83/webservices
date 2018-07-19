@@ -1,0 +1,76 @@
+title: site
+template: true
+
+fields:
+
+  theme:
+    label: Theme
+    type: headline
+
+  background:
+    label: Background
+    type:  image
+    width: 1/2
+    help: Drag a background-image into the field
+
+  toggler:
+    label: Toggler
+    type: image
+    width: 1/2
+    help: Set the navigation toggler icon
+
+  meta:
+    label: Meta
+    type: headline
+    help: Metadaten sind global, sofern nicht auf Seiten einzeln definiert
+
+  title:
+    label: Title
+    type:  text
+
+  author:
+    label: Meta Author
+    type:  text
+
+  description:
+    label: Meta Description
+    type:  textarea
+
+  keywords:
+    label: Meta Keywords
+    type:  tags
+
+  copyright:
+    label: Copyright
+    type:  textarea
+
+  footer:
+    label: Footer
+    type: headline
+
+  footer_1:
+    label: Links
+    type: textarea
+    width: 1/3
+
+  footer_2:
+    label: Mitte
+    type: textarea
+    width: 1/3
+
+  footer_3:
+    label: Rechts
+    type: textarea
+    width: 1/3
+
+  body_border_width:
+    label: Body Border
+    type: text
+    width: 1/5
+    help: e.g. 2vh
+
+  body_border_opacity:
+    label: Body Border Opacity
+    type: text
+    width: 1/5
+    help: e.g. 0.8

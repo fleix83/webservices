@@ -1,0 +1,13 @@
+Titel: Marine
+
+----
+
+Text: Ein wunderbares Element einer Seite, eine Section ganz in Marine!
+
+----
+
+Background: marine
+
+----
+
+Title: Section module

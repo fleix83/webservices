@@ -1,0 +1,13 @@
+# /site/blueprints/fields/accordion.yml
+
+
+  label: Accordions
+  type: structure
+  style: table
+  fields:
+    acc_header:
+      label: Header
+      type: text
+    acc_panel:
+      label: Panel
+      type: text

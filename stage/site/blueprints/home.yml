@@ -1,0 +1,38 @@
+title: home
+pages: true
+options:
+  template: true
+  url: true
+
+fields:
+  title:
+    label: Title
+    type:  text
+
+  hero_header:
+    label: Hero Header
+    type:  textarea
+
+  hero_sub:
+    label: Hero Subheader
+    type:  textarea
+
+  cta_angebot:
+    label: CTA Angebot
+    type: text
+    width: 1/2
+
+  cta_angebot_link:
+    label: Link
+    type: url
+    width: 1/2
+
+  cta_projekte:
+    label: CTA Projekte
+    type: text
+    width: 1/2
+
+  cta_projekte_link:
+    label: Link
+    type: url
+    width: 1/2

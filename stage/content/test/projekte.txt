@@ -1,0 +1,21 @@
+Title: test
+
+----
+
+Intro: Seite mit Modulen
+
+----
+
+Text: Hier sieht man die Module
+
+----
+
+Teaser: 
+
+----
+
+Table: 
+
+----
+
+Sortable: product-teaser, accordion, module-section-1t33zo6, bordeaux

@@ -1,0 +1,28 @@
+  title: Home
+pages:
+  template:
+    - module.section-hero
+    - module.section-angebot
+    - module.accordion
+    - module.teaser
+    - module.section
+    - module.section-img
+  url: true
+
+fields:
+  sortable:
+    label: Sortable
+    type:  sortable
+
+    sortable: true
+
+    layout:  base
+    variant: null
+
+    limit: false
+
+    parent: null
+    prefix: null
+
+    options:
+      limit: false

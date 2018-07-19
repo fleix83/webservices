@@ -1,0 +1,35 @@
+Title: angebot
+
+----
+
+Angebote: 
+
+- 
+  title: One-Pager
+  text: >
+    Individuelle Webseite zum durchscrollen,
+    optimiert für die Darstellung auf
+    Smartphone und Tablet
+  preis: 199.-
+  cta: Mehr
+  cta_link: http://www.google.ch
+  color: black
+- 
+  title: KMU-Page
+  text: "Webseite für KMU's mit unlimitierter Anzahl Seiten, Formularen und Spezial-Elementen"
+  preis: 499.-
+  cta: Mehr
+  cta_link: http://www.google.ch
+  color: black
+- 
+  title: Webshop
+  text: >
+    Webshop mit unlimitierter Anzahl
+    Produkten, Einrichtung von Payment
+    Gateway, Anpassung von Template,
+    Lokalisierung von Währungen und
+    Einrichtung von Versandoptionen.
+  preis: 899.-
+  cta: Mehr
+  cta_link: http://google.ch
+  color: black

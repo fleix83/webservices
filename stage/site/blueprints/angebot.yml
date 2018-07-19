@@ -1,0 +1,71 @@
+
+title: Angebot
+pages: false
+options:
+  template: true
+  url: true
+
+fields:
+  background_angebot:
+    label: Background
+    type:  image
+    width: 1/2
+    help: Drag a background-image into the field
+
+  title:
+    label: Title
+    type:  text
+
+  intro:
+    label: Intro
+    type:  textarea
+
+  text:
+    label: Text
+    type:  textarea
+
+  angebot_1:
+    label: Angebot Links
+    type:  textarea
+    width: 1/3
+
+  angebot_2:
+    label: Angebot Mitte
+    type:  textarea
+    width: 1/3
+
+  angebot_3:
+    label: Angebot Rechts
+    type:  textarea
+    width: 1/3
+
+
+  angebote:
+    label: Angebote
+    type: structure
+    style: table
+    fields:
+      title:
+        label: Angebot
+        type: text
+      text:
+        label: Text
+        type: text
+      preis:
+        label: Preis
+        type: text
+      cta:
+        label: CTA
+        type: text
+      cta_link:
+        label: Link
+        type: url
+      color:
+        label: Color
+        type: select
+        options:
+          black: Black
+          red: Red
+
+
+  accordion: accordion

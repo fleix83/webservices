@@ -1,0 +1,82 @@
+  title: Projekte
+pages:
+  template:
+    - module.accordion
+    - module.teaser
+    - module.section
+  url: true
+
+fields:
+  title:
+    label: Title
+    type:  text
+
+  intro:
+    label: Intro
+    type:  textarea
+
+  text:
+    label: Text
+    type:  textarea
+
+
+  teaser:
+      label: Teaser
+      type: structure
+      style: table
+      fields:
+        tsr_image:
+          label: Teaser Image
+          type: image
+        tsr_titel:
+          label: Teaser Titel
+          type: text
+        tsr_text:
+          label: Teaser Text
+          type: textarea
+        tsr_cta:
+          label: Teaser CallToAction
+          type: text
+        tsr_cta_link:
+          label: Teaser CallToAction Link
+          type: url
+
+  table:
+      label: Table
+      type: structure
+      style: table
+      fields:
+        col_1:
+          label: Col 1
+          type: text
+        col_2:
+          label: Col 2
+          type: text
+        col_3:
+          label: Col 3
+          type: text
+        col_4:
+          label: Col 4
+          type: text
+
+fields:
+  title:
+    label: Title
+    type:  text
+
+  sortable:
+    label: Sortable
+    type:  sortable
+
+    sortable: true
+
+    layout:  base
+    variant: null
+
+    limit: false
+
+    parent: null
+    prefix: null
+
+    options:
+      limit: false

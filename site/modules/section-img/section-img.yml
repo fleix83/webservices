@@ -1,0 +1,38 @@
+title: Section Image module
+pages: false
+files: true
+icon: list
+
+fields:
+  image:
+    label: Background
+  	type: image
+  imagesize:
+    label: Bildgrösse
+    type: select
+    options:
+      col-lg-12: Ganze Breite
+      col-lg-8: "2/3"
+      col-lg-4: "1/3"
+  justifyImage:
+    label: Ausrichtung Bild
+    type: select
+    options:
+      justify-content-start: Links
+      justify-content-center: Mitte
+      justify-content-end: Rechts
+
+
+  titel:
+    label: Titel
+    type: text
+  text:
+    label: Text
+    type: text
+  justify:
+    label: Ausrichtung Text
+    type: select
+    options:
+      justify-content-start: Links
+      justify-content-center: Mitte
+      justify-content-end: Rechts
