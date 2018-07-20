@@ -6,14 +6,14 @@ Intro: Web auf Mass
 
 ----
 
-Text:
+Text: 
 
 **Leichte Templates, schnelles Rendering
 **
 
 ----
 
-Alert:
+Alert: 
 
 ----
 
@@ -49,4 +49,4 @@ Cta-projekte-link: http://weissheimer.ws/ws/projekte
 
 ----
 
-Sortable: hero, module-section-angebot-hzr3mf
+Sortable: hero, module-section-angebot-hzr3mf, projekte

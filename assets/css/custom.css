@@ -333,6 +333,78 @@ h3.angebot__box_preis--h3 {
 	color: red !important;
 }
 
+
+/** SECTION PROJEKTE **/
+section.projekte {
+	background: white;
+	margin-top: 200px;
+	padding: 100px 40px;
+}
+
+.projekt__box {
+	/* background: lightgrey; */
+	box-shadow: 0 10px 30px rgba(51,51,51,.1);
+	margin: 50px 20px;
+	padding: 30px;
+	border: 2px solid transparent;
+	transition: 0.4s;
+}
+
+.projekt__box:hover {
+	border: 2px solid #67fecb;
+	transition: 0.4s;
+}
+
+.projekte h3 {
+	color: black;
+	font-size: 1.2rem;
+	margin-bottom: -3px;
+}
+
+.projekte p {
+	color: grey;
+	font-size: 0.8rem;
+	font-style: italic;
+}
+
+.projekte p.link {
+	color: grey;
+	font-size: 0.8rem;
+	font-style: italic;
+	margin-bottom: 1px;
+}
+
+.projekte p.link::before {
+	content: '\f0c1';
+	color: grey;
+	font-family: 'Font Awesome 5 Free';
+	font-size: 0.4rem;
+	font-weight: 200;
+	margin-right: 8px;
+}
+
+.projekte p.cms {
+	color: grey;
+	font-size: 0.8rem;
+	font-style: italic;
+	margin-bottom: 1px;
+}
+
+.projekte p.cms::before {
+	content: '\f085';
+	color: grey;
+	font-family: 'Font Awesome 5 Free';
+	font-size: 0.4rem;
+	font-weight: 200;
+	margin-right: 8px;
+}
+
+.projekte .divider {
+	width: 80%;
+	margin: 0px 0px 3px 0px;
+	border-bottom: 1px solid grey;
+}
+
 /********************************************************************************************************************************************** FOOTER */
 
 .footer {

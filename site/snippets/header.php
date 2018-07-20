@@ -48,7 +48,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Merriweather+Sans" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
-	<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 
 	<!-- STYLESHEETS -->
   <?= css('assets/css/bootstrap.css') ?>

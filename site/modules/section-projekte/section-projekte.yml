@@ -1,0 +1,34 @@
+title: Modul Projekte
+pages: true
+options:
+  template: true
+  url: true
+
+fields:
+  title:
+    label: Titel
+    type: text
+
+  projekte:
+    label: Projekte
+    type: structure
+    style: table
+    fields:
+      img:
+        label: Thumb-Image
+        type: image
+      title:
+        label: Projekttitel
+        type: text
+      kurzbeschreibung:
+        label: Kurzbeschreibung
+        type: textarea
+      cms:
+        label: Cms
+        type: text
+      linktext:
+        label: Linktext
+        type: text
+      link:
+        label: Link
+        type: url

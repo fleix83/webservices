@@ -3,6 +3,7 @@ pages:
   template:
     - module.section-hero
     - module.section-angebot
+    - module.section-projekte
     - module.accordion
     - module.teaser
     - module.section
