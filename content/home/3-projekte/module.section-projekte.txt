@@ -35,8 +35,9 @@ Projekte:
   kurzbeschreibung: >
     One-Pager für die Swiss Essential Tool
     Box von WohnGeist
-  linktext: swisstoolcase.com/swissessential
-  link: http://swisstoolcase.com/swissessential
+  linktext: swisstoolcase.com/swiss-essential/
+  link: >
+    http://swisstoolcase.com/swiss-essential/
   cms: Wordpress
 - 
   img: woodandluxury_thumb.png

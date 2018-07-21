@@ -8,8 +8,8 @@
       <!-- projektE STRUCTURED FIELD -->
       <div class="row d-flex justify-content-center">
                 <?php foreach($module->projekte()->toStructure() as $projekt): ?>
+                    <a href="<?= $projekt->link()->html() ?>">
                       <div class="projekt__box col-lg-3 col-md-6 col-sm-8 col-12 mb-4">
-                        <!-- <div class="header"></div> -->
                           <figure>
                             <?php
                             $image = $projekt->img()->toFile();
@@ -26,6 +26,7 @@
                           <p class="cms"><?= $projekt->cms()->html() ?></p>
                         </a>
                       </div>
+                    </a>
                 <?php endforeach ?>
       </div>
 
