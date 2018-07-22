@@ -8,7 +8,7 @@
       <!-- ANGEBOTE STRUCTURED FIELD -->
       <div class="row d-flex justify-content-center">
                 <?php foreach($module->angebote()->toStructure() as $angebot): ?>
-                      <div class="angebot__box col-lg-3 col-md-6 col-sm-8 col-12 mb-4">
+                      <div class="angebot__box col-lg-3 col-md-6 col-sm-12 col-12 mb-4">
                         <div class="flag"></div>
 
                         <h3 class="angebot__box--h3"><?= $angebot->title()->html() ?></h3>

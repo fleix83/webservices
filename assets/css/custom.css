@@ -265,7 +265,9 @@ section.angebot::before {
 
 @media (max-width: 576px) {
 	section.angebot::before {
-		top: -100px;
+		position: absolute;
+		top: -470px;
+		left: 0px;
 	}
 }
 
