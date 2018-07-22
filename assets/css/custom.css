@@ -249,7 +249,7 @@ section.angebot {
 	position: relative;
 }
 
-section.angebot::before {
+section.angebot:before {
 	content: "";
 	background-image: url('http://localhost:8888/ws/content/home/2-module-section-angebot-hzr3mf/blue-edge.gif');
 	font-size: 1.8rem;
@@ -264,14 +264,14 @@ section.angebot::before {
 }
 
 @media (max-width: 576px) {
-	section.angebot::before {
+	section.angebot:before {
 		position: absolute;
 		top: -470px;
 		left: 0px;
 	}
 }
 
-.angebot h2 {
+. h2 {
 	color: white;
 	font-size: 2.2rem; /*2.8rem*/
 	font-weight: 800;
