@@ -251,7 +251,7 @@ section.angebot {
 
 section.angebot::before {
 	content: "";
-	background-image: url('http://localhost:8888/ws/content/home/2-module-section-angebot-hzr3mf/blue-edge.gif');
+	background-image: url('./content/home/2-module-section-angebot-hzr3mf/blue-edge.gif');
 	font-size: 1.8rem;
 	padding: 30px;
 	width: 100%;
@@ -265,9 +265,6 @@ section.angebot::before {
 
 @media (max-width: 575px) {
 	section.angebot::before {
-		content: "";
-		background-image: url('http://localhost:8888/ws/content/home/2-module-section-angebot-hzr3mf/blue-edge.gif');
-		position: absolute;
 		top: -470px;
 		left: 0px;
 	}
@@ -296,7 +293,8 @@ section.angebot::before {
 	min-width: 200px;
 	margin: 100px 30px;
 	padding: 60px 30px;
-	background: white;
+	background: rgba(255,255,255,.1);
+	/*background: linear-gradient(144deg, rgba(51,204,255,1) 0%, rgba(103,254,203,1) 100%); */
 	border-radius: 5px;
 	box-shadow: 0 10px 30px rgba(51,51,51,.1);
 	transition: all 0.4s;
