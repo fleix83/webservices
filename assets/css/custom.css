@@ -251,7 +251,7 @@ section.angebot {
 
 section.angebot::before {
 	content: "";
-	background-image: url('./ws/content/blue-edge.gif');
+	background-image: url('http://weissheimer.ws/ws/content/blue-edge.gif');
 	font-size: 1.8rem;
 	padding: 30px;
 	width: 100%;
