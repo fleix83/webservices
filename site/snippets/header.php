@@ -58,7 +58,7 @@
 
 <!-- BODY WITH INLINE VARIABLE BACKGROUND -->
 <?php if($bgimage = $site->background()->toFile()): ?>
-<body style="background: url(<?= $bgimage->url() ?>) center top no-repeat;" >
+<body style="background: url(<?= $bgimage->url() ?>) center top no-repeat;" onclick="menuContact()">
 <?php endif ?>
 
 <!-- Alert -->
