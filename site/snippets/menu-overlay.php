@@ -8,6 +8,9 @@
 								<h1><a class="nav-link" href="<?= $item->url() ?>"><?= $item->title()->html() ?></a></h1>
 							</li>
 						<?php endforeach ?>
+						<li onmouseover="menuContact()">
+							<h1><a class="nav-link">Kontakt</a></h1>
+						</li>
 					</ul>
 					<div class="divider"></div>
 					<div class="my">
@@ -97,5 +100,9 @@ function closeResponsiveNav() {
   document.getElementById("responsiveMenu").classList.toggle("menu-visible");
 }
 
+// Menu Contact
+function menuContact(){
+	document.querySelector(".my").classList.toggle("menucontact");
+}
 
 </script>
