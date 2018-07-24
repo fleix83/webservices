@@ -10,6 +10,9 @@
 						<?php endforeach ?>
 					</ul>
 					<div class="divider"></div>
+					<div class="my">
+						<?= $site->footer_2()->kirbytext() ?>
+					</div>
 				</div>  <!-- END NAV -->
 
 
