@@ -198,6 +198,64 @@ button a:visited {
 }
 
 
+.my {
+	width: 448px;
+	height: 450px;
+	padding: 140px 100px;
+	background: #33ccff;
+	border-radius: 5px;
+	opacity: 0.0;
+	position: absolute;
+	top: 90px;
+	right: 15px;
+	transition: opacity 0.6s;
+}
+
+.menucontact {
+	color: white;
+	opacity: 0.8;
+	transition: opacity 0.6s;
+}
+
+.menucontact:after {
+	content: "";
+  background-image: url('/ws/content/home/2-module-section-angebot-hzr3mf/blue.svg');
+	background-repeat: no-repeat;
+	width: 448px;
+	height: 200px;
+	position: absolute;
+	top: -200px;
+	right: 0px;
+}
+
+.my h3 {
+	color: white;
+	font-weight: 800;
+	margin-left: 70px;
+	text-transform: none;
+}
+
+.my h3:before {
+	content: "";
+	background-image: url('/ws/content/toggler_white.svg');
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 130px;
+	left: 30px;
+}
+
+
+.my p {
+	color: white;
+	font-size: 1.2rem;
+	margin-left: 70px;
+	line-height: 1.4rem;
+}
+
+
+
 
 /* SECTION HERO */
 section.hero {
