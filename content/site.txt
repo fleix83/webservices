@@ -20,9 +20,17 @@ Toggler: toggler_w_blue.svg
 
 Footer-1: 
 
+Gerne biete ich Ihnen auch ein Vorab-Gespräch zur Realisierung Ihres Projektes an: 
+
+(link: tel:8998987 text: 0987687687)
+
 ----
 
 Footer-2: 
+
+----
+
+Footer-3: 
 
 ###WEISSHEIMER webservices
 4058 | Basel
@@ -32,16 +40,16 @@ felix@weissheimer.ws
 
 ----
 
-Footer-3: 
-
-Gerne biete ich Ihnen auch ein Vorab-Gespräch zur Realisierung Ihres Projektes an: 
-
-(link: tel:8998987 text: 0987687687)
-
-----
-
-Background: tex-mint.jpg
+Background: 
 
 ----
 
 Keywords: 
+
+----
+
+Header: 
+
+##WEISSHEIMER webservices 
+
+Gestaltung, Entwicklung, Konzeption

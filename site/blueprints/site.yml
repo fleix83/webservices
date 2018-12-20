@@ -28,6 +28,10 @@ fields:
     label: Title
     type:  text
 
+  header:
+    label: Header
+    type:  textarea
+
   author:
     label: Meta Author
     type:  text
