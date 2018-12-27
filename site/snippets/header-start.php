@@ -80,8 +80,8 @@
 
 
 
-<!-- NAVIGATION -->
-<?php snippet('nav-start') ?>
+<!-- NAVIGATION
+<?php snippet('nav-start') ?> -->
 <!-- END NAVIGATION -->
 <div class="test">
 <!-- <p><?= $site->background()->toFile() ?></p> -->
