@@ -62,7 +62,7 @@
 </div>
 <?php endif ?>
 
-<!-- CORNER LEFT IMAGE -->
+<!-- CORNER LEFT IMAGE Test -->
 <div class="container-fluid m-0 p-0">
   <div class="row d-flex justify-content-between ">
     <div class="col-lg-4">
