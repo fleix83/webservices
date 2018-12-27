@@ -9,7 +9,7 @@ body {
 #corner {
 	width: 800px;
 	height: 700px;
-	background: url('/webservices/content/annie-spratt_corner_medium.jpg') no-repeat;
+	/* background: url('/webservices/content/annie-spratt_corner_medium.jpg') no-repeat; */
 }
 
 @media (max-width: 904px) {
