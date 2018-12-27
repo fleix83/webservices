@@ -24,6 +24,14 @@ fields:
     type: headline
     help: Metadaten sind global, sofern nicht auf Seiten einzeln definiert
 
+  contact_email:
+    label: Mail
+    type:  text
+
+  contact_tel:
+    label: Tel
+    type:  text
+
   title:
     label: Title
     type:  text

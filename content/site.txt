@@ -53,3 +53,11 @@ Header:
 ##WEISSHEIMER webservices 
 
 Gestaltung, Entwicklung, Konzeption
+
+----
+
+Contact-email: felix@weissheimer.ws
+
+----
+
+Contact-tel: 078 892 30 13

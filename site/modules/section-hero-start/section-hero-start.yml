@@ -16,7 +16,7 @@ fields:
     type:  text
 
   hero_header:
-    label: Heroe Header
+    label: Hero Header
     type:  text
 
   hero_sub:

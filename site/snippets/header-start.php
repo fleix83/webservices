@@ -66,15 +66,26 @@
 <div class="container-fluid m-0 p-0">
   <div class="row d-flex justify-content-between ">
     <div class="col-lg-4">
-      <div id="corne">
+      <div id="corner">
         <img src="/webservices/content/annie-spratt_corner_medium.jpg" alt="Weissheimer webservices" class="img-fluid">
       </div>
     </div>
 
-    <!-- Header -->
-    <div class="col-lg-5 col-10 header">
-          <h2><?= $site->header()->kirbytext() ?></h2>
-    </div>
+<div class="col-lg-6">
+  <!-- Contact Block -->
+  <div class="col-lg-12 col-10 contact d-lg-block d-none">
+    <ul class="contact">
+      <li class="email"><h2><?= $site->contact_email()->text() ?></h2></li>
+      <li><h2 class="tel"><?= $site->contact_tel()->text() ?></h2></li>
+    <ul>
+  </div>
+
+  <!-- Hero Block -->
+  <div class="col-lg-10 col-10 header">
+        <h2><?= $site->header()->kirbytext() ?></h2>
+  </div>
+</div>
+
 
   </div>
 </div>

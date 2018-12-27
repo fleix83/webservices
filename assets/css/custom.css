@@ -7,8 +7,8 @@ body {
 }
 
 #corner {
-	width: 800px;
-	height: 700px;
+	width: 150%;
+	height: auto;
 	/* background: url('/webservices/content/annie-spratt_corner_medium.jpg') no-repeat; */
 }
 
@@ -19,13 +19,39 @@ body {
 		}
 }
 
+.contact {
+	height: 40px;
+	background: background: linear-gradient(90deg, rgba(240,240,240,1) 64%, rgba(255,255,255,1) 100%);
+}
+
+ul.contact {
+	list-style-type: none;
+}
+
+ul>li h2 {
+	float: left;
+	display: inline;
+	font-size: 1.6rem;
+	margin: 10px 25px 0px 0px;
+	font-weight: 400;
+	color: rgba(200, 200, 200, 0.7);
+}
+
+li h2.email {
+	color: #fb2b61;
+}
+
+li.tel {
+	color: #c0d4c1;
+}
+
 .header {
-	margin: 500px 20px 0px 0px;
+	margin: 550px 20px 0px 0px;
 }
 
 @media (max-width: 904px) {
 	.header {
-		margin: 50px 0px 0px 30px;
+		margin: 70px 0px 0px 30px;
 		}
 }
 
