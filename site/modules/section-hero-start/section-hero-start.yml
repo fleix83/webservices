@@ -1,0 +1,44 @@
+title: Modul Hero Start
+pages: true
+options:
+  template: true
+  url: true
+
+fields:
+  hero_claim:
+    label: Claim
+    type:  textarea
+  cta:
+    label: Claim CtA
+    type:  text
+  title:
+    label: Title
+    type:  text
+
+  hero_header:
+    label: Heroe Header
+    type:  text
+
+  hero_sub:
+    label: Hero Subheader
+    type:  textarea
+
+  cta_angebot:
+    label: CTA Angebot
+    type: text
+    width: 1/2
+
+  cta_angebot_link:
+    label: Link
+    type: url
+    width: 1/2
+
+  cta_projekte:
+    label: CTA Projekte
+    type: text
+    width: 1/2
+
+  cta_projekte_link:
+    label: Link
+    type: url
+    width: 1/2
