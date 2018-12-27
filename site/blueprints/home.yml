@@ -2,8 +2,11 @@
 pages:
   template:
     - module.section-hero
+    - module.section-targeting
     - module.section-angebot
     - module.section-projekte
+    - module.section-technologie
+    - module.section-benefits
     - module.accordion
     - module.teaser
     - module.section
