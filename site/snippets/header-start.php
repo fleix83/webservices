@@ -66,7 +66,9 @@
 <div class="container-fluid m-0 p-0">
   <div class="row d-flex justify-content-between ">
     <div class="col-lg-4">
-      <div id="corner"></div>
+      <div id="corne">
+        <img src="/webservices/content/annie-spratt_corner_medium.jpg" alt="Weissheimer webservices" class="img-fluid">
+      </div>
     </div>
 
     <!-- Header -->
