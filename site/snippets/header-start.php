@@ -71,7 +71,7 @@
       </div>
     </div>
 
-<div class="col-lg-6">
+<div class="col-lg-5">
   <!-- Contact Block
   <div class="col-lg-12 col-10 contact d-lg-block d-none">
     <ul class="contact">
