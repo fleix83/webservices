@@ -72,13 +72,13 @@
     </div>
 
 <div class="col-lg-6">
-  <!-- Contact Block -->
+  <!-- Contact Block
   <div class="col-lg-12 col-10 contact d-lg-block d-none">
     <ul class="contact">
       <li class="email"><h2><?= $site->contact_email()->text() ?></h2></li>
       <li><h2 class="tel"><?= $site->contact_tel()->text() ?></h2></li>
     <ul>
-  </div>
+  </div> -->
 
   <!-- Hero Block -->
   <div class="col-lg-10 col-10 header">
