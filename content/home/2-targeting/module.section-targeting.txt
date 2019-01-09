@@ -1,0 +1,43 @@
+Title: targeting
+
+----
+
+Targets: 
+
+- 
+  target_image: verein.svg
+  target_text: |
+    ##Als Verein..
+    
+    **ist es Ihnen wichtig, Ihre Kultur, Ihr Engagement, Ihr Herzblut auch online authentisch, individuell aber auch aktuell zu präsentieren?** Sie könnten das zwar auch selber, haben aber zu wenig Zeit, um das richtig gut umzusetzen? Sie haben zwar schon eine Webseite, aber Sie ist nicht mehr wirklich aktuell und funktioniert nicht auf (highlight:mobilen Geräten class:highlight)?
+    
+    Dabei kann ich Sie unterstützen. Entweder mit einer kompletten brandneuen Webseite inkl. massgeschneidertem Template und frischen Gestaltungsideen. Mit einer neuen Webseite, aber mit Ihren Gestaltungsvorstellungen. Oder mit einer Anpassung Ihrer bestehenden Webseite an moderne Webstandards, unter Beibehaltung ihrer bewährten Grundsubstanz.
+  target_cta: Fragen Sie mich an
+- 
+  target_image: stiftung.svg
+  target_text: |
+    ##Ihre Stiftung..
+    
+    **sucht eigentlich nicht den grossen Auftritt, möchte jedoch trotzdem auch online einen einfachen aber repräsentativen und zeitgemässen Eindruck hinterlassen? Sie müssen als Stiftung gleichermassen junge und ältere Menschen ansprechen?** Sie stellen sich dafür eine leichte, individuelle und wirklich einfach zu handhabende Lösung vor, die auf allen modernen und auch älteren Geräten funktioniert?
+    
+    Diese kann ich Ihnen wahrscheinlich vorschlagen und nach Ihren Vorstellungen umsetzen.
+  target_cta: Fragen Sie mich einfach an
+- 
+  target_image: schere.svg
+  target_text: |
+    ##Sie als KMU..
+    
+    **wollen Ihre Stärken und Kompetenzen prägnanter und wirkungsvoller online kommunizieren? Sie investieren lieber in Ihre Mitarbeiter und Produkte statt in teures Marketing?** Sie brauchen eine produktspezifische Landingpage, auf der das Produkt direkt per Shopfunktion verkauft werden kann, ohne dafür ein grosses Projekt aufzuziehen? Oder Sie müssen einen kompletten Onlineshop aufbauen, befürchten aber, dass das Ihr Budget sprengt?
+    
+    Ich finde Ihnen gerne kostenbewusst eine effektive Lösung und setze Sie nach Ihren Anforderungen um.
+  target_cta: Fragen Sie mich an
+- 
+  target_image: schere.svg
+  target_text: |
+    ##Sie sind KünstlerIn..
+    **und möchten einen Onlineauftritt, der wirklich genau Ihrer Idee entspricht und mit
+    jemandem zusammenarbeiten, der sich meinungsstark aber offen auf Ihre Konzepte einlässt?** Die
+    Herangehensweise ist eher experimentell und prozessorientiert und das Ergebnis offen?
+    
+    Den Versuch würde ich gerne wagen und mich auf eine individuelle Zusammenarbeit einlassen.
+  target_cta: Anfragen

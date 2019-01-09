@@ -32,3 +32,6 @@ fields:
       link:
         label: Link
         type: url
+      empty:
+        label: Placeholder Last Row
+        type: text

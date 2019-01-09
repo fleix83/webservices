@@ -3,11 +3,9 @@
 <head>
 
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
 
   <title><?= $site->title()->html() ?> | <?= $page->title()->html() ?></title>
-
-
   <?php if($page->description() != ''): ?>
   <meta name="description" content="<?= $page->description()->html() ?>">
   <?php else: ?>
@@ -23,20 +21,15 @@
   <meta name="author" content="<?= $site->author()->html() ?>">
 
 
-
-
-
-
 	<!-- JAVASCRIPT & JQUERY -->
 	<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-	<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script> -->
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
 
   <!-- JS Librarys -->
-  <script src="js/parallaxie.min.js"></script>
   <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
   <?= js('assets/js/granim/dist/granim.min.js') ?>
-
+  <!-- <?= js('assets/js/bootstrap.js') ?> -->
+  <script src="https://unpkg.com/wired-elements@latest/dist/wired-elements.bundled.min.js"></script>
 
 	<!-- Lightbox http://ashleydw.github.io/lightbox/ -->
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" rel="stylesheet">
@@ -57,9 +50,7 @@
 </head>
 
 <!-- BODY WITH INLINE VARIABLE BACKGROUND -->
-<?php if($bgimage = $site->background()->toFile()): ?>
-<body style="background: url(<?= $bgimage->url() ?>) center top no-repeat;" onclick="menuContact()">
-<?php endif ?>
+<body onclick="menuContact()">
 
 <!-- Alert -->
 <?php if (!$page->alert()->empty()): ?>
@@ -70,19 +61,9 @@
 <?php endif ?>
 
 <!-- NAVIGATION -->
-<?php snippet('menu-overlay') ?>
+<?php snippet('nav') ?>
 <!-- END NAVIGATION -->
 
-<!-- TOPBAR
-<div id="topbar">
-	<div class="mail">
-		<i class="fas fa-envelope"></i>&nbsp;&nbsp; <a href="mailto://info@wohngeist.ch">info@wohngeist.ch</a>
-	</div>
-	<div class="tel">
-		<i class="fas fa-phone"></i><a href="tel:+41 61 272 18 18">&nbsp;&nbsp;+41 61 272 18 18</a>
-	</div>
-</div>
--->
 
 <script>
 	$(document).ready(function() {

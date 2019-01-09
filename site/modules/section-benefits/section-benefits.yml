@@ -1,0 +1,21 @@
+title: Modul Benefits
+pages: true
+options:
+  template: true
+  url: true
+
+fields:
+  title:
+    label: Titel
+    type:  text
+  benefits:
+    label: Benefit Items
+    type: structure
+    style: table
+    fields:
+      benefit_image:
+        label: Image
+        type:  image
+      benefit_text:
+        label: Text
+        type:  textarea

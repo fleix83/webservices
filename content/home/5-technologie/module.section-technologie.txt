@@ -1,0 +1,29 @@
+Hero-claim: Wirklich gute Software ist nicht immer auf den ersten Blick zu finden. Ich arbeite bevorzugt mit Kirby CMS und Prestashop.
+
+----
+
+Title: technologie
+
+----
+
+Hero-header: 
+
+----
+
+Hero-sub: 
+
+----
+
+Cta-angebot: 
+
+----
+
+Cta-angebot-link: 
+
+----
+
+Cta-projekte: 
+
+----
+
+Cta-projekte-link: 

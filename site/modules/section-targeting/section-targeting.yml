@@ -1,0 +1,24 @@
+title: Modul Targeting
+pages: true
+options:
+  template: true
+  url: true
+
+fields:
+  title:
+    label: Titel
+    type:  text
+  targets:
+    label: Target Group
+    type: structure
+    style: table
+    fields:
+      target_image:
+        label: Image
+        type:  image
+      target_text:
+        label: Text
+        type:  textarea
+      target_cta:
+        label: CtA
+        type:  text

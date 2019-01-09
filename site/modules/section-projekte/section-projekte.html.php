@@ -6,10 +6,10 @@
         </div>
       </div>
       <!-- projektE STRUCTURED FIELD -->
-      <div class="row d-flex justify-content-center">
+      <div class="row d-flex justify-content-between">
                 <?php foreach($module->projekte()->toStructure() as $projekt): ?>
                     <a href="<?= $projekt->link()->html() ?>">
-                      <div class="projekt__box col-lg-3 col-md-6 col-sm-8 col-12 mb-4">
+                      <div class="projekt__box col-lg-3 col-md-6 col-sm-8 col-12 mb-4 <?= $projekt->empty() ?> ">
                           <figure>
                             <?php
                             $image = $projekt->img()->toFile();
@@ -29,6 +29,13 @@
                     </a>
                 <?php endforeach ?>
       </div>
+      <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-7 back">
+            <div class="col-lg-11 col-md-11 col-sm-11 col-11 inner">Das Tor<br> Ein grosse Geschichte über die Menschheit.</div>
+        </div>
+      </div>
+
+
 
   </div> <!-- END CONTAINER -->
 </section>

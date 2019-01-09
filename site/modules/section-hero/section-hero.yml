@@ -5,13 +5,19 @@ options:
   url: true
 
 fields:
+  hero_claim:
+    label: Claim
+    type:  textarea
+  cta:
+    label: Claim CtA
+    type:  text
   title:
     label: Title
     type:  text
 
   hero_header:
     label: Hero Header
-    type:  textarea
+    type:  text
 
   hero_sub:
     label: Hero Subheader

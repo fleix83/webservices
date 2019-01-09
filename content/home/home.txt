@@ -49,4 +49,4 @@ Cta-projekte-link: http://weissheimer.ws/ws/projekte
 
 ----
 
-Sortable: hero, module-section-angebot-hzr3mf, projekte
+Sortable: hero, targeting, benefits, module-section-angebot-hzr3mf, technologie, projekte

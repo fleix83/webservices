@@ -6,7 +6,7 @@
         </div>
       </div>
       <!-- ANGEBOTE STRUCTURED FIELD -->
-      <div class="row d-flex justify-content-center">
+      <div class="row d-flex justify-content-between align-items-end">
                 <?php foreach($module->angebote()->toStructure() as $angebot): ?>
                       <div class="angebot__box col-lg-3 col-md-6 col-sm-12 col-12 mb-4">
                         <div class="flag"></div>

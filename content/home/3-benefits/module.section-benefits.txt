@@ -1,0 +1,36 @@
+Benefit-image: test.svg
+
+----
+
+Benefit-text: 
+
+###Fantasie
+*Excellente Fantasien gehören zu den Vorteilen einer Zusammenarbeit mit mir...*
+
+----
+
+Title: benefits
+
+----
+
+Benefit-image2: test_2.svg
+
+----
+
+Benefits: 
+
+- 
+  benefit_image: test.svg
+  benefit_text: |
+    ### Fantasie
+    *Ohne Fantasie geht es, aber erst mit Fantasie wird etwas gut. Bei mir ist die Fantasie inklusive.*
+- 
+  benefit_image: test_2.svg
+  benefit_text: |
+    ###Simplizität
+    *Technologie ist kompliziert, gute Technologie ist lesbar und einfach anwendbar. An diesen Leitsatz halte ich mich.*
+- 
+  benefit_image: schere.svg
+  benefit_text: |
+    ###Auf Mass
+    *Technologie ist kompliziert, gute Technologie ist lesbar und einfach (link: http://google.ch text: anwendbar). An diesen Leitsatz halte ich mich.*
